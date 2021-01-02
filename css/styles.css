@@ -1,0 +1,275 @@
+
+/* General styles */
+
+body {
+  background-color: #fff;
+  font-family: 'Rubik', sans-serif;
+  color: #702283;
+
+}
+
+
+
+/* NAV BAR */
+
+.navbar-brand {
+  font-family: 'Manjari', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+/* to change the color of the brand logo, be more specific with the class to override the default navbar setting */
+.navbar-light .navbar-brand {
+  color: #702283 !important;
+}
+
+/* used important to remove the hover function on the navbrand element, important means take the following code written as Priority, ignore others */
+
+.navbar-light .navbar-nav .nav-link {
+  color: #702283;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  margin: 3% 5% 0 0;
+  white-space: nowrap;
+}
+
+
+/* WELCOME SCREEN */
+
+#welcome-screen {
+  padding: 5% 7%;
+}
+.row.welcome {
+  padding-top: 7%;
+position: relative;
+}
+
+.welcome-text {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 20%;
+}
+
+.welcome-imagebox {
+  position: relative;
+}
+
+.welcome-image {
+  /* height: 120%; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* margin-top: 13%; */
+}
+
+
+.first-cta {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+.btn-outline-dark, .btn-outline-dark:hover, .btn-outline-dark:focus, .btn-outline-dark.focus, .btn-outline-dark.disabled, .btn-outline-dark:disabled, .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
+.show > .btn-outline-dark.dropdown-toggle, .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-dark.dropdown-toggle:focus {
+  background-color: #702283 !important;
+}
+
+@media (max-width: 995px) {
+  .welcome-text {
+    padding-bottom: 10%;
+  }
+
+  .welcome-imagebox {
+    padding-top: 5%;
+  }
+}
+
+@media (max-width: 580px) {
+  .welcome {
+    padding-top: 20%;
+    position: relative;
+  }
+
+  .welcome-text {
+    font-size: 3rem;
+    padding-bottom: 30%;
+  }
+}
+
+
+/* BUDDIE! PROFILES */
+
+#buddie-profiles {
+  padding: 7% 7% 15%;
+}
+
+.buddieprofiles {
+
+}
+
+.profile-images {
+  position: relative;
+}
+
+.profiles-header {
+  /* font-family: 'Manjari', sans-serif; */
+  font-size: 3rem;
+  /* font-weight: bold; */
+  text-align: center;
+  margin: 2.65rem auto;
+}
+
+
+.overview-paragraph {
+  font-size: 1.1rem;
+  padding-bottom: 5%;
+  line-height: 2;
+}
+
+.jollofmaster-preview {
+  height: 12.5rem;
+  position: absolute;
+  right: 11.5%;
+}
+
+.savvysaver-preview {
+  height: 12.5rem;
+  margin-top: 12%;
+}
+
+.moneyguy-preview {
+  height: 12.5rem;
+}
+
+.jollofmaster-box {
+  position: absolute;
+  left: 20.5rem;
+  top: 17rem;
+}
+
+.savvysaver-box {
+  position: absolute;
+  top: 17rem;
+}
+
+.card-text.profile-title{
+  text-align: right;
+  font-size: 1.2rem;
+  color: #702283;
+  text-decoration: none;
+}
+
+a:hover {
+
+}
+
+@media (max-width: 995px) and (min-width: 581px) {
+  .savvysaver-preview {
+    height: 25rem;
+    margin-top:0;
+
+  }
+}
+
+@media (max-width: 580px) {
+  .savvysaver-preview {
+    height: 15rem;
+    margin-top: 6%;
+    text-align: center;
+  }
+}
+
+
+/* PROFILE DESCRIPTIONS */
+
+#profile-descriptions {
+  padding: 5% 0;
+  background-color: #d0c3f1;
+}
+
+#allprofiledescriptions {
+  padding: 0 7%;
+}
+
+.carousel-indicators {
+
+}
+
+.description-container{
+  padding: 0 7%;
+}
+
+
+.profile-imagebox{
+  text-align: center;
+}
+
+.profile-paragraphs {
+  font-size: 1.1rem;
+  padding-bottom: 2%;
+  line-height: 2;
+}
+
+.description-header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+/* CTA-EMAIL */
+
+#cta-email {
+  padding: 5% 7%;
+}
+
+.cta-text {
+
+}
+
+.form-group.join-email {
+  padding-top: 15%;
+}
+
+.icons {
+  font-size: 3rem;
+  color: #702283;
+  margin-right:3%;
+  padding-top: 5%;
+}
+
+.cta {
+  position: relative;
+}
+
+.cta-image {
+  height: 110%;
+  position: absolute;
+  right: 0;
+}
+
+
+/* CTA FOOTER */
+
+#cta-footer {
+  background-color: #d0c3f1;
+}
+
+.footer-items {
+  padding: 2% 7%;
+  text-align: center;
+}
+
+.footer-fontawesome {
+  color: #702283;
+  font-size: 1.5rem;
+  margin: 1%;
+}
+
+.copyright {
+  margin-top: 1.5%;
+  margin-bottom: 0;
+}
